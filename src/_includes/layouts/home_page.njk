@@ -5,8 +5,18 @@
 
 {% include 'components/hero.njk' %}
 
+<section class="container pb-10 mx-auto sm:pl-5">
+    <h2 id="projects" class="pb-1 pl-5 text-2xl font-bold text-indigo-600 sm:pl-0">Projets</h2>
+    <div class="container flex flex-wrap justify-around sm:justify-between mt-5 sm:mt-10 pb-2.5 lg:w-10/12">
+        {% for item in projects %}
+            {% include 'components/project-cards.njk' %}
+        {% endfor %}
+    </div>
+    <a href="https://github.com/William-Blackie/" class="flex flex-wrap pl-5 text-base leading-6 text-gray-500 sm:pl-0 sm:mt-5 hover:text-indigo-600"><p class="pr-3">Want to see more of my open source work?</p> {% include "atoms/github_icon.njk" %}</a>
+</section>
+
 <section class="container pl-5 mx-auto">
-    <h2 class="pb-1 text-2xl font-bold text-indigo-600">Experience</h2>
+    <h2 id="experience" class="pb-1 text-2xl font-bold text-indigo-600">Experience</h2>
     
     {% for item in experience %}
     <div class="container pb-2.5 mt-5 sm:mt-10">
@@ -19,7 +29,6 @@
         </div>
     </div>
     {% endfor %}
-    
 </section>
 
 <section class="container pl-5 mx-auto mt-5 sm:mt-10">
