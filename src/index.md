@@ -8,6 +8,31 @@ image_credit: (Featuring Poppy 🐕)
 introduction: |
     I'm a FullStack Web Developer, mostly using Python, Django and Wagtail. 
     Currently, I'm focusing on building accessible, ethical products for non-profits with <a class='font-semibold text-indigo-600 hover:opacity-80 hover:underline' href='http://www.torchbox.com'>Torchbox</a>.
+about_description: |
+    I mostly do blah blah blah
+about_title : |
+    I mostly do blah blah
+projects:
+    - {
+        url: https://github.com/William-Blackie/eleventy-portfolio,
+        title: Eleventy Portfolio,
+        description: "The the site you're on now! Built using Eleventy, Tailwind and hosted on Netlify."
+    }
+    - {
+        url: https://github.com/William-Blackie/django_storybook,
+        title: Django Storybook,
+        description: A Django module to integrate the Storybook pattern library and Django  .
+    }
+    - {
+        url: https://github.com/William-Blackie/wagtail-tailwind-starter,
+        title: Wagtail Tailwind starter kit,
+        description: A Wagtail starter kit setup with Tailwind. To help new developers learn Wagtail and Tailwind.
+    }
+    - {
+        url: https://github.com/William-Blackie/extractive_Skip-Thought_summariser,
+        title: Extractive Skip-Thought Summariser,
+        description: "A NLP project that produced preliminary state of the art summation of news articles, produced for my undergraduate dissertation."
+    }
 experience:
     - {
         title: "Developer",
