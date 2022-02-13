@@ -12,16 +12,28 @@
     {% endif %}
 
     <link rel="stylesheet" href="assets/main.css" />
-
+  {% block extra_css %}
+      {{ content }}
+  {% endblock %}
 </head>
-{% include "components/nav.njk" %}
 
 <body>
-    {% block content %}
-      {{ content }}
+  {% include "components/nav.njk" %}
+  
+  {% block content %}
+    {{ content }}
+  {% endblock %}
+
+  {% include "components/footer.njk" %}
+
+    <script type="module" src="/assets/main.js"></script>
+
+    {% block extra_js %}
+        {{ content }}
     {% endblock %}
+
 </body>
 
-{% include "components/footer.njk" %}
+
 
 </html>
