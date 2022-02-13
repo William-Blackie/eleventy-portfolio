@@ -8,15 +8,11 @@ image_credit: (Featuring Poppy 🐕)
 introduction: |
     I'm a FullStack Web Developer, mostly using Python, Django and Wagtail. 
     Currently, I'm focusing on building accessible, ethical products for non-profits with <a class='font-semibold text-indigo-600 hover:opacity-80 hover:underline' href='http://www.torchbox.com'>Torchbox</a>.
-about_description: |
-    I mostly do blah blah blah
-about_title : |
-    I mostly do blah blah
 projects:
     - {
         url: https://github.com/William-Blackie/eleventy-portfolio,
         title: Eleventy Portfolio,
-        description: "The the site you're on now! Built using Eleventy, Tailwind and hosted on Netlify."
+        description: "The site you're on now! Built using Eleventy, Tailwind and hosted on Netlify."
     }
     - {
         url: https://github.com/William-Blackie/django_storybook,

@@ -12,7 +12,7 @@
             {% include 'components/project-cards.njk' %}
         {% endfor %}
     </div>
-    <a href="https://github.com/William-Blackie/" class="flex flex-wrap px-5 text-base leading-6 text-gray-500 sm:pl-0 sm:mt-5 hover:text-indigo-600"><p class="pr-3">Want to see more of my open source work?</p> {% include "atoms/icons/github.njk" %}</a>
+    <a href="https://github.com/William-Blackie/" class="flex flex-wrap px-10 text-base leading-6 text-gray-500 sm:pl-0 sm:mt-5 hover:text-indigo-600"><p class="pr-3">Want to see more of my work?</p> {% include "atoms/icons/github.njk" %}</a>
 </section>
 
 <section class="container px-5 mx-auto">
@@ -37,7 +37,7 @@
     {% for item in awards %}
     <div class="container pb-2.5 mt-10">
         <div class="container flex flex-col justify-between max-w-full sm:flex-row">
-            <span class="">
+            <span>
                 <h3 class="font-bold">{{ item.title }}</h3>
                 <p>awarded by <a class="text-indigo-600" href={{ item.url }}>{{ item.awarding_body }}</a></p>
             </span>
