@@ -14,7 +14,13 @@ module.exports = {
             patterns: [{
                 from: "src/assets/images/",
                 to: "images/"
-            }, ],
+            }, {
+                from: "src/assets/site.webmanifest",
+                to: ""
+            }, {
+                from: "src/assets/favicons",
+                to: "favicons"
+            }],
         }),
     ],
     module: {
