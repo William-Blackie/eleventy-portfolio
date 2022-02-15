@@ -33,18 +33,23 @@ experience:
     - {
         title: "Developer",
         company: "Torchbox",
-        date: "October 2020 - Current"
+        date: "October 2020 - Current",
+        description: "Where I work today, in leading roles to create products which allow clients to better meet their users needs and further their missions.",
+        url: "http://www.torchbox.com",
     }
     - {
         title: "Junior Developer",
         company: "Torchbox",
-        date: "September 2019 - October 2020"
+        date: "September 2019 - October 2020",
+        description: "Here I cut my teeth in web development, starting with smaller simple Wagtail/ Django builds, quickly learning and progressing into a Fullstack developer.",
+        url: "http://www.torchbox.com",
     }
     - {
         title: "BSc(Hons) Computer Science: First-class honours",
         company: "University of the West of England",
         date: "September 2016 - July 2019",
-
+        description: "I honed my passion for development and fixing complex problems at university, although I have been programing since I was nine. I especially enjoy machine learning and it's applications for good.",
+        url: "https://www.uwe.ac.uk/",
     }
 awards: 
     - {

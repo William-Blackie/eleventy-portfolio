@@ -21,11 +21,12 @@
     {% for item in experience %}
     <div class="container pb-2.5 mt-5 sm:mt-10">
         <div class="container flex flex-col justify-between max-w-full sm:flex-row">
-            <span class="">
+            <span class="sm:w-3/5">
                 <h3 class="font-bold">{{ item.title }}</h3>
-                <p>{{ item.company }}</p>
+                <a class="text-indigo-600" href="{{ item.url }}">{{ item.company }}</a>
+                <p>{{ item.description }}</p>
             </span>
-            <p class="flex items-end">{{ item.date }}</p>
+            <p class="flex justify-start text-base leading-6 text-gray-500 sm:justify-end sm:w-2/5">{{ item.date }}</p>
         </div>
     </div>
     {% endfor %}
@@ -39,9 +40,9 @@
         <div class="container flex flex-col justify-between max-w-full sm:flex-row">
             <span>
                 <h3 class="font-bold">{{ item.title }}</h3>
-                <p>awarded by <a class="text-indigo-600" href={{ item.url }}>{{ item.awarding_body }}</a></p>
+                <p>awarded by <a class="text-indigo-600" href="{{ item.url }}">{{ item.awarding_body }}</a></p>
             </span>
-            <p class="flex items-end">{{ item.date }}</p>
+            <p class="flex items-end text-base leading-6 text-gray-500">{{ item.date }}</p>
         </div>
     </div>
     {% endfor %}
