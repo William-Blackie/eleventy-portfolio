@@ -3,7 +3,7 @@
       {% include 'atoms/icons/logo.njk' %}
     </span>
   <div id="menu-button" class="block sm:hidden">
-    <button class="flex items-center px-3 py-2 text-indigo-600 border border-indigo-600 rounded hover:opacity-80">
+    <button class="flex items-center px-3 py-2 text-indigo-600 border border-indigo-600 rounded hover:opacity-80" aria-label="Open Menu">
       {% include 'atoms/icons/burger-menu.njk'%}
     </button>
   </div>
@@ -12,10 +12,9 @@
       <span class="text-indigo-600 sm:hidden">
         {% include 'atoms/icons/logo.njk' %}
       </span>
-        <span id="menu-close" class="px-3 pl-2 text-indigo-600 hover:opacity-80 sm:hidden">
+        <button id="menu-close" class="px-3 pl-2 text-indigo-600 hover:opacity-80 sm:hidden" aria-label="Close Menu">
           {% include "atoms/icons/xmark.njk" %}
-              <span class="sr-only">Close Menu</span>
-          </span>
+          </button>
         </div>
       <div class="flex flex-col sm:flex-row">
         <a class="flex items-center px-5 mt-5 text-sm font-bold leading-10 tracking-tight text-indigo-600 uppercase sm:text-lg md:text-xl lg:text-3xl hover:opacity-80 hover:underline" href="#projects">
