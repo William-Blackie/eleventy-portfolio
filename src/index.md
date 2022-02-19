@@ -1,6 +1,6 @@
 ---
 layout: layouts/home_page
-title: Home Page
+title: Home
 description: William Blackies home page
 meta_text: Hey! My name is
 strap_line: William Blackie.
