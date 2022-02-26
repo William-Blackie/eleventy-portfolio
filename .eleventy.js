@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
         return page_title + " | williamblackie.com"
     });
 
+    eleventyConfig.addPassthroughCopy("./src/admin");
 
     return {
         dir: { input: 'src', output: '_site' }
