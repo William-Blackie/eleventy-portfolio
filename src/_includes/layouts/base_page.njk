@@ -16,7 +16,7 @@
 
     <link rel="stylesheet" href="/assets/main.css" />
   {% block extra_css %}
-      {{ extra_css | safe }}
+      {{ content | safe }}
   {% endblock %}
 </head>
 
@@ -32,7 +32,7 @@
     <script type="module" src="/assets/main.js"></script>
 
     {% block extra_js %}
-        {{ extra_js | safe }}
+        {{ content | safe }}
     {% endblock %}
 
 </body>
