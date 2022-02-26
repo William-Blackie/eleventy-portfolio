@@ -1,0 +1,17 @@
+---
+layout: layouts/base_page
+section: blog
+permalink: /blog/
+---
+
+{% block content %}
+<section class="container px-5 pb-10 mx-auto">
+  <h1 class="mt-5 text-2xl font-bold leading-10 tracking-tight text-indigo-600 sm:text-5xl">{{ title }}</h1>
+  <p class="">{{ introduction }}</p>
+{{ layoutContent | safe }}
+
+{% set postslist = collections.post %}
+{% include "components/postslist.njk" %}
+
+<section>
+{% endblock %} 
