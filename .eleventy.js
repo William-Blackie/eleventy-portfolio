@@ -4,6 +4,10 @@ module.exports = function(eleventyConfig) {
         return page_title + " | williamblackie.com"
     });
 
+    eleventyConfig.addNunjucksFilter("date", function(value) {
+        const date = new Date(value)
+        return date.getDay() + "/" + date.getMonth() + "/" + date.getFullYear()
+    });
     eleventyConfig.addPassthroughCopy("./src/admin");
 
     return {

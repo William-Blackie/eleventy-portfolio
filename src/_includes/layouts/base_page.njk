@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/site.webmanifest">
     <title>{% sitename title %}</title>
     {% if description %}
     <meta name="description" content="{{ description }}" />
     {% endif %}
 
-    <link rel="stylesheet" href="assets/main.css" />
+    <link rel="stylesheet" href="/assets/main.css" />
   {% block extra_css %}
-      {{ content }}
+      {{ extra_css | safe }}
   {% endblock %}
 </head>
 
@@ -24,7 +24,7 @@
   {% include "components/nav.njk" %}
   
   {% block content %}
-    {{ content }}
+    {{ content | safe }}
   {% endblock %}
 
   {% include "components/footer.njk" %}
@@ -32,7 +32,7 @@
     <script type="module" src="/assets/main.js"></script>
 
     {% block extra_js %}
-        {{ content }}
+        {{ extra_js | safe }}
     {% endblock %}
 
 </body>

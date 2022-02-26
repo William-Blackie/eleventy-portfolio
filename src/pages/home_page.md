@@ -1,5 +1,6 @@
 ---
 layout: layouts/home_page
+permalink: /
 title: William Blackie - Full-stack Python / Django  Developer
 description: My name is William Blackie. I'm a professional Full-stack Developer based in Bristol, UK. I develop web applications utilising Python and Django.
 meta_text: Hey! My name is
