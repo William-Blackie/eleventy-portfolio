@@ -1,12 +1,12 @@
 ---
 layout: layouts/home_page
-title: Home
-description: William Blackies home page
+title: William Blackie - Full-stack Python / Django  Developer
+description: My name is William Blackie. I'm a professional Full-stack Developer based in Bristol, UK. I develop web applications utilising Python and Django.
 meta_text: Hey! My name is
 strap_line: William Blackie.
 image_credit: (Featuring Poppy 🐕)
 introduction: |
-    I'm a FullStack Web Developer, mostly using Python, Django and Wagtail. 
+    I'm a Full-Stack Web Developer, mostly using Python, Django and Wagtail. 
     Currently, I'm focusing on building accessible, ethical products for non-profits with <a class='font-semibold text-indigo-600 hover:opacity-80 hover:underline' href='http://www.torchbox.com'>Torchbox</a>.
 projects:
     - {
