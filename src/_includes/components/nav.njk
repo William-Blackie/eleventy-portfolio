@@ -1,7 +1,9 @@
 <nav class="container flex justify-between px-5 mx-auto mt-5 sm:mt-10 md:justify-between">
+  <a href="/">
     <span class="text-indigo-600 sm:mt-5">
       {% include 'atoms/icons/logo.njk' %}
     </span>
+  </a>
   <div id="menu-button" class="block sm:hidden">
     <button class="flex items-center px-3 py-2 text-indigo-600 border border-indigo-600 rounded hover:opacity-80" aria-label="Open Menu">
       {% include 'atoms/icons/burger-menu.njk'%}
@@ -17,15 +19,11 @@
           </button>
         </div>
       <div class="flex flex-col sm:flex-row">
-        <a class="flex items-center px-5 mt-5 text-sm font-bold leading-10 tracking-tight text-indigo-600 uppercase sm:text-lg md:text-xl lg:text-3xl hover:opacity-80 hover:underline" href="#projects">
+        <a class="flex items-center px-5 mt-5 text-sm font-bold leading-10 tracking-tight text-indigo-600 uppercase sm:mt-0 sm:text-lg md:text-xl lg:text-3xl hover:opacity-80 hover:underline" href="/blog">
             {% include "atoms/icons/code.njk"  %}
-            <p class="pl-2.5">Projects</p>
+            <p class="pl-2.5">blog</p>
         </a>
-        <a class="flex items-center px-5 mt-5 text-sm font-bold leading-10 tracking-tight text-indigo-600 uppercase sm:text-lg md:text-xl lg:text-3xl hover:opacity-80 hover:underline" href="#experience">
-            {% include "atoms/icons/suitcase.njk" %}
-            <p class="pl-2.5">Work</p>
-        </a>
-        <a class="flex items-center px-5 mt-5 text-sm font-bold leading-10 tracking-tight text-indigo-600 uppercase sm:text-lg md:text-xl lg:text-3xl hover:opacity-80 hover:underline" href="mailto:william.blackie96@gmail.com">
+        <a class="flex items-center px-5 mt-5 text-sm font-bold leading-10 tracking-tight text-indigo-600 uppercase sm:mt-0 sm:text-lg md:text-xl lg:text-3xl hover:opacity-80 hover:underline" href="mailto:william.blackie96@gmail.com">
             {% include "atoms/icons/mail.njk" %}
             <p class="pl-2.5">Contact</p>
         </a>
