@@ -8,7 +8,6 @@ module.exports = function(eleventyConfig) {
         const date = new Date(value)
         return date.getDay() + "/" + date.getMonth() + "/" + date.getFullYear()
     });
-    eleventyConfig.addPassthroughCopy("./src/admin");
 
     return {
         dir: { input: 'src', output: '_site' }
