@@ -1,6 +1,6 @@
 {
     "layout": "layouts/post_page.njk",
-    "permalink": "posts/{{ title | slug }}/index.html",
-    "description": "My name is William Blackie. I'm a professional Full-stack Developer based in Bristol, UK. I develop web applications utilising Python and Django."
-
+    "permalink": "posts/{{ title | slug }}/",
+    "description": "My name is William Blackie. I'm a professional Full-stack Developer based in Bristol, UK. I develop web applications utilising Python and Django.",
+    "tags": "post"
 }
