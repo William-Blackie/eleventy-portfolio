@@ -15,6 +15,9 @@ module.exports = {
                 from: "src/assets/images/",
                 to: "images/"
             }, {
+                from: "src/assets/documents/",
+                to: "documents/"
+            }, {
                 from: "src/assets/site.webmanifest",
                 to: ""
             }, {
